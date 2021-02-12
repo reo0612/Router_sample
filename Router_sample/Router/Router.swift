@@ -6,8 +6,7 @@ import UIKit
 final class Router {
     static func showRoot(window: UIWindow) {
         let firstVC = UIStoryboard(name: VCName.first.rawValue, bundle: nil).instantiateInitialViewController() as! FirstViewController
-        let navFirstVC = UINavigationController(rootViewController: firstVC)
-        window.rootViewController = navFirstVC
+        window.rootViewController = firstVC
         window.makeKeyAndVisible()
     }
 
@@ -26,8 +25,9 @@ final class Router {
 
     static func showThird(from: UIViewController, animated: Bool = true) {
         let thirdVC = UIStoryboard(name: VCName.third.rawValue, bundle: nil).instantiateInitialViewController() as! ThirdViewController
-        thirdVC.modalPresentationStyle = .fullScreen
-        show(from: from, to: thirdVC, animated: animated)
+        let thirdNavVC = UINavigationController(rootViewController: thirdVC)
+        thirdNavVC.modalPresentationStyle = .fullScreen
+        show(from: from, to: thirdNavVC, animated: animated)
     }
 
     static func showFourth(from: UIViewController, animated: Bool = true) {
