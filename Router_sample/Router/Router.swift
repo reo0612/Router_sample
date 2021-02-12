@@ -18,7 +18,7 @@ final class Router {
     }
 
     static func showSecond(from: UIViewController, animated: Bool = true) {
-        let secondVC = UIStoryboard(name: VCName.second.rawValue, bundle: nil).instantiateInitialViewController() as! SecondViewController
+        let secondVC = SecondViewController()
         secondVC.modalTransitionStyle = .crossDissolve
         show(from: from, to: secondVC, animated: animated)
     }

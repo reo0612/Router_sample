@@ -17,7 +17,6 @@
 		834C4D6125B6D89000280E6A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834C4D6025B6D89000280E6A /* FirstViewController.swift */; };
 		834C4D6925B6D89F00280E6A /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834C4D6825B6D89F00280E6A /* First.storyboard */; };
 		834C4D6F25B6DA0C00280E6A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834C4D6E25B6DA0C00280E6A /* SecondViewController.swift */; };
-		834C4D7725B6DA8B00280E6A /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834C4D7625B6DA8B00280E6A /* Second.storyboard */; };
 		834C4D7D25B6DB2700280E6A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834C4D7C25B6DB2700280E6A /* ThirdViewController.swift */; };
 		834C4D8525B6DB3400280E6A /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834C4D8425B6DB3300280E6A /* Third.storyboard */; };
 		834C4D8B25B6DC3200280E6A /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834C4D8A25B6DC3200280E6A /* FourthViewController.swift */; };
@@ -58,7 +57,6 @@
 		834C4D6025B6D89000280E6A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		834C4D6825B6D89F00280E6A /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
 		834C4D6E25B6DA0C00280E6A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		834C4D7625B6DA8B00280E6A /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 		834C4D7C25B6DB2700280E6A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		834C4D8425B6DB3300280E6A /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
 		834C4D8A25B6DC3200280E6A /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
@@ -182,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				834C4D6E25B6DA0C00280E6A /* SecondViewController.swift */,
-				834C4D7625B6DA8B00280E6A /* Second.storyboard */,
 			);
 			path = Second;
 			sourceTree = "<group>";
@@ -311,7 +308,6 @@
 				834C4D2325B6D71900280E6A /* LaunchScreen.storyboard in Resources */,
 				834C4D2025B6D71900280E6A /* Assets.xcassets in Resources */,
 				834C4D9325B6DC4000280E6A /* Fourth.storyboard in Resources */,
-				834C4D7725B6DA8B00280E6A /* Second.storyboard in Resources */,
 				834C4D8525B6DB3400280E6A /* Third.storyboard in Resources */,
 				834C4D6925B6D89F00280E6A /* First.storyboard in Resources */,
 			);
