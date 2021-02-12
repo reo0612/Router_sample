@@ -4,6 +4,12 @@ import UIKit
 //VCから画面遷移を切り離し、画面遷移に関係あるコードの記述を別ファイルに分けて実装する
 
 final class Router {
+    static func showRoot(window: UIWindow) {
+        let firstVC = UIStoryboard(name: VCName.first.rawValue, bundle: nil).instantiateInitialViewController() as! FirstViewController
+        let navFirstVC = UINavigationController(rootViewController: firstVC)
+        window.rootViewController = navFirstVC
+        window.makeKeyAndVisible()
+    }
 
     static func showFirst(from: UIViewController, animated: Bool = true) {
         let firstVC = UIStoryboard(name: VCName.first.rawValue, bundle: nil).instantiateInitialViewController() as! FirstViewController
