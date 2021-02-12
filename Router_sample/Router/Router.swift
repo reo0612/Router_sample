@@ -26,9 +26,8 @@ final class Router {
 
     static func showThird(from: UIViewController, animated: Bool = true) {
         let thirdVC = UIStoryboard(name: VCName.third.rawValue, bundle: nil).instantiateInitialViewController() as! ThirdViewController
-        let navThirdVC = UINavigationController(rootViewController: thirdVC)
-        navThirdVC.modalPresentationStyle = .fullScreen
-        show(from: from, to: navThirdVC, animated: animated)
+        thirdVC.modalPresentationStyle = .fullScreen
+        show(from: from, to: thirdVC, animated: animated)
     }
 
     static func showFourth(from: UIViewController, animated: Bool = true) {
