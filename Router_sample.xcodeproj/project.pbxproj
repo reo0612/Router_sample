@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		834C4D1725B6D71600280E6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834C4D1625B6D71600280E6A /* AppDelegate.swift */; };
-		834C4D1925B6D71600280E6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834C4D1825B6D71600280E6A /* SceneDelegate.swift */; };
 		834C4D2025B6D71900280E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834C4D1F25B6D71900280E6A /* Assets.xcassets */; };
 		834C4D2325B6D71900280E6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834C4D2125B6D71900280E6A /* LaunchScreen.storyboard */; };
 		834C4D2E25B6D71900280E6A /* Router_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834C4D2D25B6D71900280E6A /* Router_sampleTests.swift */; };
@@ -45,7 +44,6 @@
 /* Begin PBXFileReference section */
 		834C4D1325B6D71600280E6A /* Router_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Router_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		834C4D1625B6D71600280E6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		834C4D1825B6D71600280E6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		834C4D1F25B6D71900280E6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		834C4D2225B6D71900280E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		834C4D2425B6D71900280E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 				834C4D5525B6D82700280E6A /* Utility */,
 				834C4D4C25B6D7DC00280E6A /* Router */,
 				834C4D1625B6D71600280E6A /* AppDelegate.swift */,
-				834C4D1825B6D71600280E6A /* SceneDelegate.swift */,
 				834C4D1F25B6D71900280E6A /* Assets.xcassets */,
 				834C4D2125B6D71900280E6A /* LaunchScreen.storyboard */,
 				834C4D2425B6D71900280E6A /* Info.plist */,
@@ -348,7 +345,6 @@
 				834C4D6F25B6DA0C00280E6A /* SecondViewController.swift in Sources */,
 				834C4D1725B6D71600280E6A /* AppDelegate.swift in Sources */,
 				834C4D7D25B6DB2700280E6A /* ThirdViewController.swift in Sources */,
-				834C4D1925B6D71600280E6A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
